@@ -36,6 +36,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTest = findViewById(R.id.btn_test);
         mWbLoad = findViewById(R.id.wb_laod);
         mTest.setOnClickListener(this);
+        //
+        /**
+         * scheme = rong
+         * host = com.guinong.up
+         * path = /goodsDetail
+         * data = 4623   唤起页面需要的参数（你们需要关注的）
+         */
         url = "rong://com.guinong.up/goodsDetail?data=4623";
     }
 
