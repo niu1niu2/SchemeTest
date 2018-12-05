@@ -36,14 +36,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTest = findViewById(R.id.btn_test);
         mWbLoad = findViewById(R.id.wb_laod);
         mTest.setOnClickListener(this);
-        //
         /**
          * scheme = rong
          * host = com.guinong.up
          * path = /goodsDetail
          * data = 4623   唤起页面需要的参数（你们需要关注的）
          */
-        url = "rong://com.guinong.up/ynwlogin?access_app_account=15308006438&access_app_token=524387BBE6BFC2AD60EDE760223659DF";
+        url = "rong://com.guinong.up/ynwlogin?access_app_account=15308006438&access_app_token=4DD60AC0D6E8A4FB4639E2A425FF5F4D";
     }
 
     @Override
